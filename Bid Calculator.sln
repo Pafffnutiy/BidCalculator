@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1", "Project1\Project1.vcxproj", "{B834FAC1-90D1-471A-B612-6899848C474D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bid Calculator", "Project1\Project1.vcxproj", "{B834FAC1-90D1-471A-B612-6899848C474D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Bid Calculator Setup", "Bid Calculator Setup\Bid Calculator Setup.vdproj", "{62CAF7D3-EE3C-4A46-B5CE-1C97364B8C6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,13 @@ Global
 		{B834FAC1-90D1-471A-B612-6899848C474D}.Release|x64.Build.0 = Release|x64
 		{B834FAC1-90D1-471A-B612-6899848C474D}.Release|x86.ActiveCfg = Release|Win32
 		{B834FAC1-90D1-471A-B612-6899848C474D}.Release|x86.Build.0 = Release|Win32
+		{62CAF7D3-EE3C-4A46-B5CE-1C97364B8C6B}.Debug|x64.ActiveCfg = Debug
+		{62CAF7D3-EE3C-4A46-B5CE-1C97364B8C6B}.Debug|x64.Build.0 = Debug
+		{62CAF7D3-EE3C-4A46-B5CE-1C97364B8C6B}.Debug|x86.ActiveCfg = Debug
+		{62CAF7D3-EE3C-4A46-B5CE-1C97364B8C6B}.Debug|x86.Build.0 = Debug
+		{62CAF7D3-EE3C-4A46-B5CE-1C97364B8C6B}.Release|x64.ActiveCfg = Release
+		{62CAF7D3-EE3C-4A46-B5CE-1C97364B8C6B}.Release|x86.ActiveCfg = Release
+		{62CAF7D3-EE3C-4A46-B5CE-1C97364B8C6B}.Release|x86.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
