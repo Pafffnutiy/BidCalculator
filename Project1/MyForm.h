@@ -675,16 +675,16 @@ namespace Project1 {
 					dataGridView1->Rows->Clear();
 					dataGridView1->Rows->Add(8);
 					dataGridView1->Rows[0]->Cells[0]->Value = 40;
-					dataGridView1->Rows[0]->Cells[1]->Value = std::round(100 * Stavka / (100.0 - 40.0));
-					dataGridView1->Rows[0]->Cells[2]->Value = std::round(100 * Stavka / (1.2 * (100.0 - 40.0)));
+					dataGridView1->Rows[0]->Cells[1]->Value = std::round(100 * Stavka / (1.2 * (100.0 - 40.0)));
+					dataGridView1->Rows[0]->Cells[2]->Value = std::round(100 * Stavka / (100.0 - 40.0));
 					dataGridView1->Rows[1]->Cells[0]->Value = 35;
-					dataGridView1->Rows[1]->Cells[1]->Value = std::round(100 * Stavka / (100.0 - 35.0));
-					dataGridView1->Rows[1]->Cells[2]->Value = std::round(100 * Stavka / (1.2 * (100.0 - 35.0)));
+					dataGridView1->Rows[1]->Cells[1]->Value = std::round(100 * Stavka / (1.2 * (100.0 - 35.0)));
+					dataGridView1->Rows[1]->Cells[2]->Value = std::round(100 * Stavka / (100.0 - 35.0));
 					size_t j{ 2 };
 					for (size_t R = 30; R >= 24; --R) {
 						dataGridView1->Rows[j]->Cells[0]->Value = R;
-						dataGridView1->Rows[j]->Cells[1]->Value =std::round(100 * Stavka / (100.0 - R));
-						dataGridView1->Rows[j]->Cells[2]->Value =std::round(100 * Stavka / (1.2 * (100.0 - R)));
+						dataGridView1->Rows[j]->Cells[1]->Value = std::round(1.2 * 100 * Stavka / ((100.0 - R)));
+						dataGridView1->Rows[j]->Cells[2]->Value =std::round(100 * Stavka / (100.0 - R));
 						++j;
 					}
 				}
